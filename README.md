@@ -1,7 +1,9 @@
-# Data Analytics Project from DeepLearning.AI
-A data analytics pipeline integrating NYC health inspection data with user ratings. Built using Python, SQL, and Pandas to uncover correlations between restaurant price, cuisine, and safety compliance.
+# Full Stack Analytics Project
+An end-to-end data analytics pipeline integrating NYC health inspection data with user ratings to uncover correlations between restaurant price, cuisine, and safety compliance.
 
-**Note:** This was a guided capstone project completed as part of a data engineering/analytics curriculum.
+**Built with:** Jupyter Notebook · Python · SQL (SQLite) · pandas · REST API · Matplotlib · Seaborn
+
+**Note:** This was a guided capstone project completed as part of the DeepLearning.AI data analytics curriculum.
 
 ### Situation (The Challenge)
 As a data analyst at a consulting firm, the challenge was to support restaurant owners in optimizing their business performance. The primary pain point for clients is maintaining high health standards while managing operational characteristics. The firm needed a data-driven approach to understand if specific restaurant characteristics (such as price level or cuisine category) systematically correlate with better or worse health inspection performance.
@@ -38,8 +40,9 @@ The analysis integrated thousands of inspection records with business metadata, 
 
 ### Tech Stack
 * **Language**: Python
-* **Data Manipulation**: Pandas
-* **Database**: SQLite (SQL)
+* **Notebook**: Jupyter Notebook (Google Colab)
+* **Data Manipulation**: pandas (cleaning, HTML scraping, `read_sql` / `to_sql`)
+* **Database**: SQLite, queried with SQL (`JOIN`, `GROUP BY` aggregations)
 * **Data Extraction**: Requests (API), Pandas (HTML Scraping)
 * **Visualization**: Matplotlib, Seaborn
 * **Environment Management**: `dotenv`, `os`
